@@ -1,12 +1,24 @@
 body {
     font-family: "Open Sans", sans-serif;
-        font-size: 18px;
+    font-size: 18px;
     font-weight: 900;
-    background-color: brown;
+    background-image: linear-gradient(90deg,rgb(61, 61, 61),rgb(209, 209, 209));
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: large;
+    color: rgb(104, 104, 104);
+}
+h1 {
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 15px;
 }
 
 #calculadora {
-    background-color: black;
+    background-color: rgb(185, 185, 185);
     color: rgb(104, 104, 104);
 
     display: inline-flex;
@@ -25,23 +37,24 @@ body {
 }
 
 #visor {
-    background-color: aliceblue;
+    background-color: rgb(213, 216, 219);
     color: rgb(104, 104, 104);
 
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    padding-inline: 15px;
+    margin-bottom: 8px;
 
     height: 40px;
-    width: 160px;
-    margin-bottom: 20px;
+    width: 195px;
     
     border-radius: 5px;
     text-align: end;
     
 }
 
-#botao {
+.botao {
     font-size: 18px;
     font-weight: 900;
     color: rgb(104, 104, 104);
@@ -55,7 +68,7 @@ body {
     margin: 2px;
 }
 
-#botao:hover {
+.botao:hover {
     background-color: rgb(47, 60, 66);
     box-shadow: 5px;
 }
